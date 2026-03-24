@@ -27,7 +27,7 @@ jobs:
      - name: Install dependencies
        run: |
          python -m venv venv
-         source venvnv/bin/activate
+         source venv/bin/activate
          pip install -r requirements.txt
          playwright install
 
